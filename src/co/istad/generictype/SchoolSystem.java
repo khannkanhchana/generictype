@@ -28,7 +28,7 @@ public class SchoolSystem {
         people.add(teacher2);
         School<Person> school = new School<>();
 
-
+        school.setData(people);
         school.getData().forEach(person -> {
 
             System.out.println("Name: "+ person.getName());
